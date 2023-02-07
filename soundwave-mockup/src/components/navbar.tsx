@@ -1,9 +1,16 @@
 import React from 'react'
-import styled from "styled-components"
-const navbar = () => {
+import { Link } from 'react-router-dom'
+
+type Props = {}
+
+const Navbar = (props: Props) => {
   return (
-    <div>navbar</div>
+    <div>
+        <Link to="/soundwave">Soundwave</Link>
+        <Link to="/discover">Discover</Link>
+        <Link to="/join">Join</Link>
+    </div>
   )
 }
 
-export default navbar
+export default Navbar

@@ -1,11 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { StyledButton } from './JoinButtonStyle'
 
 type Props = {}
 
 const JoinButton = (props: Props) => {
   return (
-    <button><Link to="/join">Join</Link></button>
+    <StyledButton>
+    <Link to="/join">Join</Link>
+    </StyledButton>
   )
 }
 

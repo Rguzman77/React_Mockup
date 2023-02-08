@@ -1,4 +1,4 @@
-import React from 'react'
+import JoinButton from './JoinButton'
 
 type Props = {}
 
@@ -17,6 +17,7 @@ const JoinForm = (props: Props) => {
             <p>Password:</p>
             <input type="text" className="password-input" />
         </div>
+        <JoinButton/>
     </>
     )
 }

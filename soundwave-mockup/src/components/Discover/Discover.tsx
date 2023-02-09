@@ -1,14 +1,14 @@
-import React from 'react'
 import covers from '../../Assets/covers.jpg'
 import microphone from '../../Assets/microphone.svg'
 import albums from '../../Assets/albums.svg'
 import more from '../../Assets/more.svg'
-import { Footer } from '../Customs'
+import { Footer } from '../Footer/Footer'
 import { DiscoverStyle } from './DiscoverStyle'
 type Props = {}
 
 const Discover = (props: Props) => {
   return (
+    <>
     <DiscoverStyle>
     <p className='discover'>Discover new music</p>
     <section>
@@ -17,10 +17,11 @@ const Discover = (props: Props) => {
         <div><img src={more} alt="More info" />More</div>
     </section>
     <p>By joining you can benefit by listening to the latest albums released.</p>
-    <img src={covers} alt="Album covers" />
+    <img className='albumcover' src={covers} alt="Album covers" />
     
-    <Footer/>
     </DiscoverStyle>
+    <Footer/>
+    </>
   )
 }
 

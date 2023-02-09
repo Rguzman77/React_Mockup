@@ -11,6 +11,10 @@ export const StyledForm = styled.form`
  border-radius: 20px;
  padding: 2em;
 
+ button{
+   width:70%;
+ }
+
  input {
   border-radius: 0.5em;
   height: 2.5em;

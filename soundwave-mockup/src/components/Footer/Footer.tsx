@@ -1,24 +1,25 @@
 import { BsTwitter } from 'react-icons/bs'
 import { AiFillFacebook } from 'react-icons/ai'
+import { FooterStyle } from './FooterStyle'
 
 type Props = {}
 
-const Footer = (props: Props) => {
+export const Footer = (props: Props) => {
   return (
-    <>
-        <section>
-            <p>About us</p>
-            <p>Contact</p>
+    <FooterStyle>
+        <section className='foot__flex__container'>
+            <p className='about'>About us</p>
+            <p className='about'>Contact</p>
         </section>
-        <section>
-            <a href='www.twiitter.com'>
+        <section className='foot__flex__container'>
+            <a  className='media' href='www.twiitter.com'>
             <BsTwitter/>Twitter
             </a>
-            <a href= 'www.facebook.com'>
+            <a  className='media' href= 'www.facebook.com'>
             <AiFillFacebook/>Facebook
             </a>
         </section>    
-    </>
+    </FooterStyle>
   )
 }
 

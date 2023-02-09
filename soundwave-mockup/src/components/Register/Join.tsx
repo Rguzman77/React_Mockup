@@ -1,13 +1,14 @@
-import React from "react";
+
 import JoinForm from "./JoinForm";
 import {JoinTextStyle}  from './JoinTextStyle'
 import { Footer } from "../Customs";
+import { Register } from "./Register";
 
 type Props = {};
 
 const Join = (props: Props) => {
   return (
-    <>
+    <Register>
       <JoinTextStyle>
         <div>
         <h2>
@@ -19,7 +20,7 @@ const Join = (props: Props) => {
         <JoinForm/>
       </span>
       <Footer/>
-    </>
+    </Register>
   );
 };
 

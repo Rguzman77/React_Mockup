@@ -34,5 +34,7 @@ bottom: 0;
     align-items: center;
     
 }
+@media screen and (min-width: 768px) {
 
+}
 `

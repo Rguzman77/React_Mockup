@@ -28,22 +28,31 @@ export const Landing = styled.section`
         width:15vh;
     }
     
-.landingimg {
+img {       
+            margin-top:100px;
             display: none;
+            height: 70vh;
+
         }
     
     @media screen and (min-width: 768px) {
-        * {
+        
             display: grid;
             grid-template-columns: 1fr 1fr;
             
+            
+        .cta{
+            margin-left:20vh;
+            grid-column: 2;
         }
         
-        .landingimg{
-            display:block;
-            height:50vh;
+        img{
+            display:grid;
+            margin-left:20vh ;
+            grid-column: 1;
+            
         }
         
-}
+    }
 
 `

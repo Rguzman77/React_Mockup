@@ -23,4 +23,13 @@ export const StyledForm = styled.form`
   background-color: var(--color-primary);
   margin-bottom: 1em;
   }
+  div{
+display:flex;
+margin-left:2dvh;
+
+}
+
+
+
+  
 `

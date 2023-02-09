@@ -8,8 +8,6 @@ export const NavBarStyle = styled.nav `
     padding: 1rem ;
     width: 100%;
     box-sizing: border-box;
-    position: fixed;
-    top: 0;
     background-color: var(--color-bg);
     
 
@@ -40,5 +38,11 @@ export const NavBarStyle = styled.nav `
    
     font-size: large;
     margin-right: 0.5dvh;
+}
+
+@media screen and (min-width: 768px) {
+    width: 120vh;
+    margin:0 auto;
+
 }
 `

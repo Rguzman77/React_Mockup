@@ -2,7 +2,7 @@ import "./App.css";
 import { Routes } from 'react-router-dom';
 import { Route } from 'react-router';
 import {Feelthemusic, Discover, Navbar, Join} from "./components/Customs";
-import Layout from "./components/Elements/Layout";
+import Layout from "./components/Layout";
 
 function App() {
   return (

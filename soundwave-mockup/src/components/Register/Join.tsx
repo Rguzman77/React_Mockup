@@ -10,9 +10,12 @@ const Join = (props: Props) => {
   return (
     <Register>
       <JoinTextStyle>
-        <div>
+        <div className="jointext">
         <h2>
-          Join The<div>fun.</div>
+          Join The
+          <div>
+            fun.
+          </div>
         </h2>
         </div>
       </JoinTextStyle>

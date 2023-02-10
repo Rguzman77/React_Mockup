@@ -41,8 +41,13 @@ export const NavBarStyle = styled.nav `
 }
 
 @media screen and (min-width: 768px) {
-    width: 120vh;
+    width: 150vh;
     margin:0 auto;
+
+    .navbar-links_container a {
+   
+   margin-right: 3vh;
+}
 
 }
 `

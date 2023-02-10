@@ -8,6 +8,7 @@ justify-content: space-around;
 height:100px;
 position: fixed;
 bottom: 0;
+width:100%;
 
 
 
@@ -18,7 +19,6 @@ bottom: 0;
     margin-left:1dvh;
     margin-right:1dvh;
     
-
 }
 
 .about{
@@ -34,7 +34,13 @@ bottom: 0;
     align-items: center;
     
 }
+
 @media screen and (min-width: 768px) {
+width: 100%;
+
+.media{
+    margin-right: 3vh;
+}
 
 }
 `

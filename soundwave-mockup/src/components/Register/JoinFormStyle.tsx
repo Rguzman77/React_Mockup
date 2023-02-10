@@ -29,7 +29,11 @@ margin-left:2dvh;
 
 }
 
-
+@media screen and (min-width: 768px) {
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
 
   
 `

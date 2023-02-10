@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const DiscoverStyle=styled.section`
-display:flex;
-flex-direction:column;
+display:block;
+margin: auto;
 p{
     font-size: 1.1em;
     width:80%;
@@ -43,8 +43,8 @@ section>div>img{
 .albumcover{
     height: 30vh;
     width:30vh;
-    margin-left: auto;
-    margin-right: auto;
+    display:block;
+    margin:auto;
 
 }
 @media screen and (min-width: 768px) {
@@ -53,9 +53,7 @@ section>div>img{
         "discover img"
         "cards img"
         "join img";
-    margin-top:auto;
-    margin-bottom:auto;
-    margin-left:200px;
+    margin-left: 30vh;
     height: 70vh;
     width: 170vh;
     justify-content: start;
@@ -81,6 +79,9 @@ section{
 .albumcover{
       grid-area:img;
       margin: 0 auto;
+}
+section>div{
+    margin-right:3vh;
 }
 
 }

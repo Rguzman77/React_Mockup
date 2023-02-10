@@ -5,7 +5,6 @@ type Props = {}
 
 const JoinForm = (props: Props) => {
     return (
-    <>
         <StyledForm>
             <div>
                 <p>Name:</p>
@@ -21,8 +20,7 @@ const JoinForm = (props: Props) => {
             </div>
             <JoinButton/>
         </StyledForm>
-    </>
-    )
+      )
 }
 
 export default JoinForm

@@ -24,15 +24,19 @@ export const StyledForm = styled.form`
   margin-bottom: 1em;
   }
   div{
-display:flex;
-margin-left:2dvh;
+  display:flex;
+  margin-left:2dvh;
 
 }
 
 @media screen and (min-width: 768px) {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction:column;
   
+  div{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
   
